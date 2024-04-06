@@ -66,8 +66,8 @@ const Dashboard = () => {
         </div>
         <div>
           <DashboardOne />
-          <DashboardTwo />
-          <DashboardSix />
+          <DashboardTwo data={yearData} />
+          <DashboardSix products={productData} />
         </div>
       </div>
       <div className="midel-items-continers">

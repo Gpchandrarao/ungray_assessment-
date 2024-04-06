@@ -1,0 +1,30 @@
+/* .dashboardsix-container {
+  /* margin-top: 50px; */
+/* } */
+
+.top-products-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.top-products-container h1 {
+  font-size: 20px;
+}
+
+.top-products-container p {
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.ul-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 15px 0;
+  color: gray;
+  /* background-color: aqua; */
+}
