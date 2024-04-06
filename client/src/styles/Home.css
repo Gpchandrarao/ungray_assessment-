@@ -1,0 +1,15 @@
+.home-container {
+  display: flex;
+  min-height: 100vh;
+  /* margin: 55px 35px; */
+  padding: 20px 35px;
+}
+
+.home-itemss-container {
+  background-color: #e6e6eb;
+  width: 100%;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  gap: 30px;
+}

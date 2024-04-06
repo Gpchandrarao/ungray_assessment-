@@ -1,10 +1,15 @@
 import React from "react";
-import "Home.css";
+import "../styles/Home.css";
+import SideBar from "../components/SideBar";
+import Dashboard from "../components/Dashboard";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="home-container">
+      <div className="home-itemss-container">
+        <SideBar />
+        <Dashboard />
+      </div>
     </div>
   );
 };
