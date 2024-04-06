@@ -45,7 +45,6 @@ const initializeDbServer = async () => {
         );
         `);
 
-    // Check if the tables already exist and contain data before inserting the data from the Excel file
     const checkTableData = async (tableName) => {
       const data = `SELECT COUNT(*) as count FROM ${tableName}`;
       const result = await db.get(data);
@@ -79,7 +78,7 @@ const initializeDbServer = async () => {
         return dataSheets;
       }
 
-      const excelData = readExcelFile("excle.xlsx");
+      const excelData = readExcelFile("assignment_data.xlsx");
 
       async function insertDataIntoTable(tableName, data) {
         return new Promise(async (resolve, reject) => {
@@ -133,7 +132,6 @@ app.get("/comparison", async (req, res) => {
   const data = `SELECT * FROM tabel1`;
   const result = await db.all(data);
   res.send(result);
-  //console.log(result);
 });
 app.get("/products", async (req, res) => {
   const data = `SELECT * FROM tabel2`;

@@ -1,0 +1,51 @@
+.dashboardone-container {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+}
+
+.purchases-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 2px solid #e6e6eb;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.trendup-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.purchases {
+  color: #c5c5c8;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.number {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.arrow-trend-up {
+  background-color: #e1feec;
+  padding: 10px;
+  border-radius: 35px;
+  color: #12d55d;
+  font-size: 15px;
+  font-weight: 700;
+}
+/* FFE2E2 */
+
+.refunds-container {
+  background-color: #ffe2e2;
+  padding: 10px;
+  border-radius: 35px;
+  color: #f97979;
+  font-size: 15px;
+  font-weight: 700;
+}
